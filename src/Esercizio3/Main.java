@@ -19,6 +19,7 @@ public class Main {
         articoli[1] = a2;
 
         Carrello carrello = new Carrello(cliente,articoli);
+        System.out.println(cliente);
         System.out.println("Totale carrello: " + carrello.getTotaleCostoArticoli());
     }
 }

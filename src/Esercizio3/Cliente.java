@@ -14,4 +14,9 @@ public class Cliente {
         this.email=email;
         this.dataIscrizione=dataIscrizione;
     }
+
+    @Override
+    public String toString(){
+        return "Cliente: " + nomeCompleto;
+    }
 }
