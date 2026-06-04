@@ -14,4 +14,8 @@ public class Articolo {
         this.prezzo=prezzo;
         this.pezziDisponibili=pezziDisponibili;
     }
+
+    public double getPrezzo(){
+        return prezzo;
+    }
 }
