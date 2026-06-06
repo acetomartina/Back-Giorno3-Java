@@ -19,5 +19,5 @@ public class Articolo {
         return prezzo;
     }
 
-    
+
 }

@@ -15,12 +15,7 @@ public class Main {
         Chiamata c5 = new Chiamata("6472891532",4.7);
 
         // compongo l'array
-        Chiamata[] chiamate = new Chiamata[5];
-        chiamate[0] = c1;
-        chiamate[1] = c2;
-        chiamate[2] = c3;
-        chiamate[3] = c4;
-        chiamate[4] = c5;
+        Chiamata[] chiamate = { c1,c2,c3,c4,c5};
 
         // passo l'array alla SIM
 
